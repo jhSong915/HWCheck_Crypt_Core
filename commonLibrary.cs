@@ -8,9 +8,9 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HWCheck_Crypto_Core
+namespace HWCheck_Crypt_Core
 {
-    public class CryptoLibrary
+    public class commonLibrary
     {
         private SHA256Managed sha256 = new SHA256Managed();
         private RijndaelManaged aes = new RijndaelManaged();
